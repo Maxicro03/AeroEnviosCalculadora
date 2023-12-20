@@ -5,6 +5,7 @@ function Calculate(){
     const weight = document.getElementById("weight")
     const destination = document.getElementById("destination")
     const contentGeneral = document.getElementById("contentGeneralCalculate")
+
     const selectIndexCategory = category.selectedIndex
     const selectIndexDestination = destination.selectedIndex
 
@@ -47,7 +48,12 @@ function Calculate(){
         }
         const seguro = parseFloat((value.value * 0.01).toFixed(2))
         const impuesto = parseFloat((value.value * category.value).toFixed(2))
-        const flete = weight.value * destination.value
+        let flete
+        if(weight.value < 1){
+            flete = 1 * destination.value
+        } else {
+            flete = weight.value * destination.value
+        }
         const totalEnvio = seguro + impuesto + flete
 
         if(expositor){
