@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contentGeneral" id="contentGeneralCalculate">
+        <div class="contentCalculate">
+            <div class="contentImage">
+                <img src="./images/AeroEnvios.jpg" alt="AeroEnvios" width="200px" id="logo">
+            </div>
+            <div class="contentCategorys">
+                <label for="category">Categoría</label>
+                <select name="category" id="category" class="sizeSelect">
+                    <option value="">-- Selecciona una opción --</option>
+                    <option value=0.44>Articulos Deportivos</option>
+                    <option value=0.42>Articulos De Libreria</option>
+                    <option value=0.44>Aspiradoras</option>
+                    <option value=0.44>Auriculares</option>
+                    <option value=0.42>Baterias De Litio</option>
+                    <option value=0.42>Batidora/Kitchenaid</option>
+                    <option value=0.42>Bijouterie Acero</option>
+                    <option value=0.61>Bijouterie Collares</option>
+                    <option value=0.61>Bijouterie Plata/Oro</option>
+                    <option value=0.61>Blue Ray</option>
+                    <option value=0.61>Calzado</option>
+                    <option value=0.42>Camara De Foto</option>
+                    <option value=0.39>Accesorios De Camaras</option>
+                    <option value=0.50>Celulares</option>
+                    <option value=0.65>Celulares Usados/Refurbished</option>
+                    <option value=0.42>Ciclismo</option>
+                    <option value=0.61>Collares Y Dijes</option>
+                    <option value=0.24>Consolas De Sonido</option>
+                    <option value=0.44>Consolas De Video Juego</option>
+                    <option value=0.42>Discos De Vinilos</option>
+                    <option value=0.42>Disco Duro Pc</option>
+                    <option value=0.45>Drone</option>
+                    <option value=0.44>Fundas De Celulares</option>
+                    <option value=0.44>Golosinas</option>
+                    <option value=0.22>Gps</option>
+                    <option value=0.65>Grabadoras</option>
+                    <option value=0.61>Guitarras</option>
+                    <option value=0.42>Herramientas</option>
+                    <option value=0.61>Herramientas Electricas</option>
+                    <option value=0.24>Impresoras 3d</option>
+                    <option value=0.39>Instrumentos Musicales</option>
+                    <option value=0.13>Insumos De Informatica</option>
+                    <option value=0.61>Juguetes</option>
+                    <option value=0.26>Jguetes Sexuales</option>
+                    <option value=0.21>Kindle</option>
+                    <option value=0.61>Lentes</option>
+                    <option value=0>Libros</option>
+                    <option value=0.67>Licores</option>
+                    <option value=0.63>Luces Led</option>
+                    <option value=0.44>Maquillajes</option>
+                    <option value=0.44>Marcadores De Paintball / Airsoft</option>
+                    <option value=0.40>Memorias Micro Sd</option>
+                    <option value=0.61>Mochilas</option>
+                    <option value=0.12>Notebooks</option>
+                    <option value=0.50>Notebooks Usadas</option>
+                    <option value=0.41>Ollas</option>
+                    <option value=0.42>Sartenes</option>
+                    <option value=0.51>Otros</option>
+                    <option value=0.44>Parlantes</option>
+                    <option value=0.50>Perfumes</option>
+                    <option value=0.44>Pesca</option>
+                    <option value=0.26>Proyectores</option>
+                    <option value=0.44>Relojes</option>
+                    <option value=0.44>Reposeras</option>
+                    <option value=0.42>Repuestos De Auto/ Moto/ Cuatriciclos</option>
+                    <option value=0.20>Repuestos De Celulares</option>
+                    <option value=0.78>Ron</option>
+                    <option value=0.60>Ropa</option>
+                    <option value=0.42>Silla</option>
+                    <option value=0.12>Smartwatch</option>
+                    <option value=0.42>Soldador</option>
+                    <option value=0.12>Tablets</option>
+                    <option value=0.18>Tajetas Sim</option>
+                    <option value=0.47>Televisor</option>
+                    <option value=0.44>Termos</option>
+                    <option value=0.20>Toner De Impresoras</option>
+                    <option value=0.44>Tv Box</option>
+                    <option value=0.44>Vinos</option>
+                    <option value=0.78>Vodka</option>
+                    <option value=0.95>Whiskey</option>
+                </select> 
+            </div>
+            <div class="contentCategorys">
+                <label for="value">Valor Total de la compra (USD)</label>
+                <input type="number" name="value" id="value" class="sizeInput">
+            </div>
+            <div class="contentCategorys">
+            <label for="weight">Peso total de la compra (KG)</label>
+            <input type="number" name="weight" id="weight" class="sizeInput"> 
+            </div>
+            <div class="contentCategorys">
+                <label for="destination">País Origen</label>
+                <select name="destination" id="destination" class="sizeSelect">
+                    <option value="">-- Selecciona una opción --</option>
+                    <option value=29>Estados Unidos</option>
+                    <option value=35>China</option>
+                </select>
+            </div>
+            <div class="contentBtn">
+                <button type="submit" onclick="Calculate()">Calcular Envio</button>
+            </div>
+        </div>             
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
