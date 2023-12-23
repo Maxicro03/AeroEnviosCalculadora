@@ -3,7 +3,7 @@
   "name": "calculadora",
   "version": "1.0.0",
   "description": "",
-  "main": "calculator.js",
+  "main": "main.js",
   "scripts": {
     "start": "nodemon --ignore products.json --ignore carts.json src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
