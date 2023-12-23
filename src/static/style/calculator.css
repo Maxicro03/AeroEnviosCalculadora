@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+label{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+option{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+input{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.envioTitle{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.contentGeneral{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contentCalculate{
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.contentImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.contentCategorys{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+.contentBtn{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contentBtn button{
+    height: 40px;
+    background-color: rgb(36, 226, 45);
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#expositor{
+    margin-top: 30px;
+    width: 1200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #000;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.envioTitle{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#listProduct{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#liContent{
+    list-style: none;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#liContentTotal{
+    list-style: none;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(48, 220, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    margin: 0;
+    border: 1px solid #000;
+}
+
+.formLogIn{
+ width: 300px;
+ height: auto;
+ margin-top: 150px;
+ border-radius: 5px;
+ border: 1px solid #000;
+ background-color: #ffffff00;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 5px 5px 10px #000;
+}
+
+.contentLogIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.contentLogIn button{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: rgb(36, 226, 45);
+}
+
+.contentLogIn button:hover{
+    cursor: pointer;
+}
+
+.panelZone{
+    width: 60%;
+    height: 900px;
+    margin: 40px;
+    display: flex;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 5px;
+    background-color: rgba(110, 110, 110, 0);
+}
+
+.control{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionsModify{
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(211, 211, 211);
+}
+
+.option{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    padding-left: 5px;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0);
+    transition: all 0.2s ease;
+}
+
+.option:hover{
+    cursor: pointer;
+    background-color: #626262;
+    color: #e8e8e8;
+}
+
+.titulo{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.modify{
+    width: 75%;
+    height: 100%;
+    box-shadow: 0px 5px 10px #000;
+}
+
+.divImgPanel{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentModify{
+    width: 100%;
+    height: 70%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.formAdd{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formModify{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleControlPanel{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.contentAddCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.contentModifyCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.inputAdd{
+    width: 300px;
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.inputModify{
+    width: 300px;
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.selectCategory{
+    width: 300px;
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.btnCategory{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #00000000;
+    transition: all 0.5s ease;
+}
+
+.btnCategory:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(36, 226, 45);
+}
+
+.logout{
+    margin-top: 10%;
+}
+
+.logout button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 20, 20);
+    background-color: #ffffff00;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.logout button:hover{
+    cursor: pointer;
+    color: #eeeeee;
+    border: 1px solid rgb(255, 11, 11);
+    background-color: rgb(167, 0, 0);
+}
+
+.sizeSelect{
+    height: 40px;
+    border-radius: 5px;
+} 
+
+.sizeInput{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+} 
+
+.errorSelect{
+    border: 2px solid rgb(198, 9, 9);
+    height: 40px;
+    border-radius: 5px;
+}
+
+.errorInput{
+    border: 2px solid rgb(198, 9, 9);
+    height: 30px;
+    border-radius: 5px;
+}
+

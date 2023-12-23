@@ -1,0 +1,36 @@
+    <div class="contentGeneral" id="contentGeneralCalculate">
+        <div class="contentCalculate">
+            <div class="contentImage">
+                <img src="/static/images/AeroEnvios.jpg" alt="AeroEnvios" width="200px" id="logo">
+            </div>
+            <div class="contentCategorys">
+                <label for="category">Categoría</label>
+                <select name="category" id="category" class="sizeSelect">
+                    <option value="">-- Selecciona una opción --</option>
+                    {{#each categorys}}
+                    <option value={{this.porcentage}}>{{this.category}}</option>
+                    {{/each}}
+                </select> 
+            </div>
+            <div class="contentCategorys">
+                <label for="value">Valor Total de la compra (USD)</label>
+                <input type="number" name="value" id="value" class="sizeInput">
+            </div>
+            <div class="contentCategorys">
+            <label for="weight">Peso total de la compra (KG)</label>
+            <input type="number" name="weight" id="weight" class="sizeInput"> 
+            </div>
+            <div class="contentCategorys">
+                <label for="destination">País Origen</label>
+                <select name="destination" id="destination" class="sizeSelect">
+                    <option value="">-- Selecciona una opción --</option>
+                    <option value=29>Estados Unidos</option>
+                    <option value=35>China</option>
+                </select>
+            </div>
+            <div class="contentBtn">
+                <button type="submit" onclick="Calculate()">Calcular Envio</button>
+            </div>
+        </div>             
+    </div>
+    <script src="/static/js/calculator.js"></script>
