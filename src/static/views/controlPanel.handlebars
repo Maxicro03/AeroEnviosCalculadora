@@ -1,0 +1,30 @@
+<div class="contentGeneral">
+    <div class="panelZone">
+        <div class="control">
+            <ul class="optionsModify">
+                <li class="titulo">Categorias</li>
+                <li class="option" onclick="createAddInterface()">Agregar Categoria</li>
+                <li class="option" onclick="createModifyInterface('{{categorys}}')">Modificar Porcentajes</li>
+                <li class="option" onclick="createDeleteInterface('{{categorys}}')">Eliminar Categoria</li>
+                <li class="titulo">Origen</li>
+                <li class="option">Agegar Origen</li>
+                <li class="option">Modificar Porcentajes</li>
+                <li class="option">Eliminar Origen</li>    
+            </ul>
+            <div class="logout">
+                <form action="/Aeroenvios/ControlPanel/logout" method="post">
+                    <button type="submit">Cerrar Sesión</button>
+                </form>
+            </div>
+        </div>
+        <div class="modify" >
+            <div class="divImgPanel">
+                <img src="/static/images/AeroEnvios.jpg" alt="AeroEnvios" width="200px" id="logo">
+            </div>
+            <div id="contentModify">
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/static/js/controlPanel.js"></script>
