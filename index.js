@@ -1,9 +1,9 @@
 import express from "express"
 import mongoose from "mongoose"
 import { engine } from "express-handlebars"
-import { MDB_CONNECT, PORT } from "./service/config.js"
-import { webRouter } from "./router/webRouter.js"
-import { sessions } from "./middlewares/sessions.js"
+import { MDB_CONNECT, PORT } from "./src/service/config.js"
+import { webRouter } from "./src/router/webRouter.js"
+import { sessions } from "./src/middlewares/sessions.js"
 
 await mongoose.connect(MDB_CONNECT)
 
