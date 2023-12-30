@@ -7,9 +7,9 @@
                 <li class="option" onclick="createModifyInterface('{{categorys}}')">Modificar Porcentajes</li>
                 <li class="option" onclick="createDeleteInterface('{{categorys}}')">Eliminar Categoria</li>
                 <li class="titulo">Origen</li>
-                <li class="option">Agegar Origen</li>
-                <li class="option">Modificar Porcentajes</li>
-                <li class="option">Eliminar Origen</li>    
+                <li class="option" onclick="createAddOriginInterface()">Agegar Origen</li>
+                <li class="option" onclick="createModifyOriginInterface('{{origins}}')">Modificar Porcentajes</li>
+                <li class="option" onclick="createDeleteOriginInterface('{{origins}}')">Eliminar Origen</li>    
             </ul>
             <div class="logout">
                 <form action="/Aeroenvios/ControlPanel/logout" method="post">

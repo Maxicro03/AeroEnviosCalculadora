@@ -24,8 +24,9 @@
                 <label for="destination">País Origen</label>
                 <select name="destination" id="destination" class="sizeSelect">
                     <option value="">-- Selecciona una opción --</option>
-                    <option value=29>Estados Unidos</option>
-                    <option value=35>China</option>
+                    {{#each origins}}
+                        <option value={{this.value}}>{{this.origin}}</option>
+                    {{/each}}
                 </select>
             </div>
             <div class="contentBtn">

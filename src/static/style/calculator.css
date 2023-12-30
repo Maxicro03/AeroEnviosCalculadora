@@ -82,6 +82,10 @@ ul{
     border-radius: 5px;
 }
 
+.contentBtn button:hover{
+    cursor: pointer;
+}
+
 #expositor{
     margin-top: 30px;
     width: 1200px;
@@ -252,7 +256,7 @@ ul{
 
 .formModify{
     width: 400px;
-    height: 300px;
+    height: 400px;
     border: 1px solid #000;
     border-radius: 2px;
     display: flex;
@@ -313,7 +317,35 @@ ul{
 .btnCategory:hover{
     cursor: pointer;
     border-radius: 15px;
-    background-color: rgb(36, 226, 45);
+}
+
+.modifyBtn:hover{
+    background-color: rgb(55, 173, 232);
+}
+
+.addBtn:hover{
+    background-color: rgb(80, 226, 36);
+}
+
+.deleteBtn:hover{
+    background-color: rgb(232, 55, 55);
+}
+
+.currentPorcentage{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #ffffff00;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.textCurrent{
+    margin-left: 5px;
+    color: #838383;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 
 .logout{
